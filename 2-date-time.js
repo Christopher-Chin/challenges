@@ -12,8 +12,8 @@ let weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
 
 document.querySelector("#day").innerHTML = `Today is ${weekday[date.getDay()]}`;
 
-let hour = date.getHours(); // => 9
-let minute = date.getMinutes(); // =>  30
-let seconds = date.getSeconds(); // => 51
+let hour = date.getHours();
+let minute = date.getMinutes(); 
+let seconds = date.getSeconds(); 
 
 document.querySelector("#time").innerHTML = `Current time is : ${hour}:${minute}:${seconds}`;
