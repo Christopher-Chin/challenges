@@ -10,7 +10,8 @@ let result = document.querySelector('#result');
 const equals = (a,b) =>{
   if(a == b){
     result.innerHTML = `<strong>Result 1:</strong>${a}<br/>
-												<strong>Result 2:</strong> ${b} <br/> Both values are equal!`;
+			<strong>Result 2:</strong> ${b}<br/> 
+			Both values are equal!`;
   }
 }
 
